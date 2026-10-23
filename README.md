@@ -1,12 +1,23 @@
 # Smart Operator Assistant for CAT Machinery
 
-> **Hackathon team project (September 2026).** This is my fork of the team repository, [Aditya17-bot/caterpillar](https://github.com/Aditya17-bot/caterpillar).
+> **Built for the Caterpillar hackathon (September 2026)**, a recruitment hackathon run by Caterpillar, by a four-person team.
+> This is my fork of the team repository, [Aditya17-bot/caterpillar](https://github.com/Aditya17-bot/caterpillar). Independent student project, not affiliated with or endorsed by Caterpillar Inc.
+
+Heavy-machine operators deal with seatbelt lapses, people walking into blind spots, steep slopes, overheating engines and fatigue, usually with nothing but warning lights. This project is an in-cab assistant that watches the machine and the operator in real time:
+
+- **Safety alerts as they happen:** seatbelt, proximity (distance sensor plus camera person detection), tilt and rollover, overheating, drowsiness, with every incident logged and replayable.
+- **Four ML models:** a speed advisor, an engine-fault classifier, a task-time estimator that explains its estimate, and an unusual-behavior detector for idling, unsafe operation and fuel waste.
+- **A voice co-pilot** that answers questions from live data ("why the alert?", "how long left?") and reads critical alerts aloud.
+- **A cockpit dashboard** for the operator and a fleet view for the supervisor, with operator login by RFID badge or face.
+
+No physical hardware is needed. A simulator sends the same sensor data an ESP32 with real sensors would, so the full system runs on one laptop.
 
 ## Team
 
 - Aditya Sridhar ([@Aditya17-bot](https://github.com/Aditya17-bot))
 - Aaditya Tripathi ([@aaditripi18](https://github.com/aaditripi18))
 - Goureesankar S Nair ([@Goureesankarr](https://github.com/Goureesankarr))
+- R Yuvan Raj Mathan
 
 ## My contribution
 
