@@ -1,5 +1,21 @@
 # Smart Operator Assistant for CAT Machinery
 
+> **Hackathon team project (September 2026).** This is my fork of the team repository, [Aditya17-bot/caterpillar](https://github.com/Aditya17-bot/caterpillar).
+
+## Team
+
+- Aditya Sridhar ([@Aditya17-bot](https://github.com/Aditya17-bot))
+- Aaditya Tripathi ([@aaditripi18](https://github.com/aaditripi18))
+- Goureesankar S Nair ([@Goureesankarr](https://github.com/Goureesankarr))
+
+## My contribution
+
+- **Operator cockpit UI.** Built the main frontend (`frontend/`) in React, TypeScript and Tailwind: command center, live operation, machine health, fleet, incident log and analytics pages, with live data from the backend and a demo-data fallback ([0458b8a](https://github.com/Aditya17-bot/caterpillar/commit/0458b8a), [92fba3d](https://github.com/Aditya17-bot/caterpillar/commit/92fba3d)).
+- **Operator login.** RFID badge and face verification login backed by Convex, with the signed-in operator's identity carried across the dashboard ([3ddccec](https://github.com/Aditya17-bot/caterpillar/commit/3ddccec)).
+- **ML and integration.** Worked with the team on training and evaluating the four scikit-learn models (speed advisor, engine fault classifier, task-time estimator, unusual-behavior detector) and on bringing the simulator, backend and frontend together for the demo ([ea87707](https://github.com/Aditya17-bot/caterpillar/commit/ea87707)).
+
+---
+
 An end-to-end intelligent companion for excavator/loader operators: live safety monitoring, daily tasks with ML time estimates, training hub, unusual-behavior detection, and in-browser camera AI (drowsiness + person detection).
 
 ## Architecture
