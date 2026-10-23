@@ -1,7 +1,7 @@
 # Smart Operator Assistant for CAT Machinery
 
-> **Built for the Caterpillar hackathon (September 2026)**, a recruitment hackathon run by Caterpillar, by a four-person team.
-> This is my fork of the team repository, [Aditya17-bot/caterpillar](https://github.com/Aditya17-bot/caterpillar). Independent student project, not affiliated with or endorsed by Caterpillar Inc.
+> **Built at the Caterpillar hackathon (September 2026)**, a hackathon organised by Caterpillar, by a four-person team.
+> This is my fork of the team repository, [Aditya17-bot/caterpillar](https://github.com/Aditya17-bot/caterpillar). The code is the team's own work, not an official Caterpillar product.
 
 Heavy-machine operators deal with seatbelt lapses, people walking into blind spots, steep slopes, overheating engines and fatigue, usually with nothing but warning lights. This project is an in-cab assistant that watches the machine and the operator in real time:
 
